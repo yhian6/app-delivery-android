@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns:tools="http://schemas.android.com/tools"
+    android:name="SliderImageCorners"
+    parent="ShapeAppearanceOverlay.Material3.ShapeableImageView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="MissingPrefix">
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerSize">16dp</item>
+</style>

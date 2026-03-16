@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/menu" />
+
+    <item
+        android:id="@+id/nav_orders"
+        android:icon="@drawable/ic_car"
+        android:title="@string/carrito"
+        app:actionLayout="@layout/badge_carrito"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/nav_bookmark"
+        android:icon="@drawable/ic_orders"
+        android:title="@string/mis_pedidos" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_info"
+        android:title="@string/info" />
+</menu>

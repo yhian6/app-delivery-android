@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarContraentrega"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/transparent"
+        app:contentInsetStartWithNavigation="0dp"
+        app:title="">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Subtítulo -->
+    <TextView
+        android:id="@+id/txtDescripcionContraentrega"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Realiza tu pedido y págalo al recibirlo en tu domicilio."
+        android:textColor="#757575"
+        android:textSize="16sp"
+        android:lineSpacingExtra="4dp" />
+
+    <!-- Imagen ilustrativa -->
+    <ImageView
+        android:id="@+id/imgContraentrega"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:contentDescription="Imagen ilustrativa"
+        android:src="@drawable/contraentrega" />
+
+    <!-- Botón Confirmar Pedido -->
+    <Button
+        android:id="@+id/btnConfirmarContraentrega"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="sans-serif-medium"
+        android:padding="14dp"
+        android:text="Confirmar pedido"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</LinearLayout>

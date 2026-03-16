@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarPlin"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/transparent"
+            app:contentInsetStartWithNavigation="0dp"
+            app:title="">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/imgQRYape"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/qr"
+            android:scaleType="centerCrop"
+            android:contentDescription="Código QR de Yape"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/txtNombreYape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre: Manolo Ramos Ramos"
+            android:textSize="18sp"
+            android:textColor="#444"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/txtNumeroYape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Número: 969874522"
+            android:textSize="18sp"
+            android:textColor="#444"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnRealicePago"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ya realicé el pago"
+            android:backgroundTint="#2E7D32"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnEnviarWhatsapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Enviar captura por WhatsApp"
+            android:backgroundTint="#25D366"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">MiPrimeraApp</string>
+    <!-- SPLASH -->
+    <string name="delivery_ola_marina">Delivery Ola Marina</string>
+    <string name="version_1_1_1">version 1.1.1</string>
+    <string name="desarrollado_por_yhiancode">Desarrollado por YhianCode</string>
+
+    <!-- LOGIN -->
+    <string name="login_de_acceso">LOGIN DE ACCESO</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="ingresar">Iniciar Sesión</string>
+    <string name="no_tienes_cuenta">¿No tienes una cuenta?</string>
+    <string name="reg_strate">Regístrate</string>
+
+
+    <!-- REGISTER -->
+    <string name="olvidaste_tu_contrase_a">¿Olvidaste tu contraseña?</string>
+    <string name="ya_tengo_una_cuenta">Ya tengo una cuenta</string>
+    <string name="registrar">Registrar</string>
+    <string name="registro_de_usuario">Registro de Usuario</string>
+    <string name="ingrese_apellidos">Ingresa Apellidos</string>ç.l7l
+    <string name="apellidos">Apellidos</string>
+    <string name="ingrese_nombre">Ingrese Nombre</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo</string>
+    <string name="ingrese_correo">Ingrese Correo</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="ingrese_contrase_a">Ingrese Contraseña</string>
+    <string name="confirme_contrase_a">Confirme Contraseña</string>
+    <string name="ingrese_contrasenia">Ingrese Contraseña</string>
+
+    <!-- OLVIDASTE TU CONTRASEÑA -->
+    <string name="recupera_tu_cuenta">Recupera tu cuenta</string>
+    <string name="ingrese_su_correo_electronico">Ingrese su correo electrónico</string>
+    <string name="hello_blank_fragment">Hola</string>
+
+    <!-- HOME -->
+    <string name="cargando">Cargando...</string>
+    <string name="correo_ejemplo_com">correo@example.com</string>
+    <string name="men">Menu</string>
+    <string name="buscar_almuerzo">Buscar almuerzo...</string>
+    <string name="categor_as">Categorías</string>
+    <string name="recomendados">Recomendados</string>
+
+    <!-- DETALLE PRODUCTO -->
+    <string name="imagen_producto">Imagen Producto</string>
+    <string name="nombre_producto">Nombre Producto</string>
+    <string name="s_0_00">$0.00</string>
+    <string name="aqu_va_la_descripci_n_del_producto">Producto descripción va aquí...</string>
+    <string name="agregar_al_carrito">Agregar al carrito</string>
+
+    <!-- CARRITO -->
+    <string name="tu_carrito_est_vac_o">Tu carrito está vacío</string>
+    <string name="realizar_pedido">Realizar Pedido</string>
+
+    <!-- DETALLE PEDIDO -->
+    <string name="fecha_del_pedido">Fecha de pedido:</string>
+    <string name="_23_de_julio_2025">July 23, 2025</string>
+    <string name="total">Total:</string>
+    <string name="m_todo_de_pago">Método de pago:</string>
+    <string name="pendiente">Pendiente</string>
+    <string name="preparando">Preparando</string>
+    <string name="en_camino">En camino</string>
+    <string name="entregado">Entregado</string>
+
+    <!-- SOPORTE -->
+    <string name="qui_nes_somos">¿Quienes somos?</string>
+    <string name="somos_el_restaurante_comprometido_con_la_frescura_y_el_sabor_aut_ntico">Somos el restaurante comprometido con la frescura y el sabor auténtico curamorino.</string>
+    <string name="contacto">Contacto</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="correo_electr_nico">Correo electrónico</string>
+    <string name="llamar">Llamar</string>
+    <string name="ubicaci_n">Ubicación</string>
+    <string name="ver_en_google_maps">Ver en Google Maps</string>
+    <string name="pol_ticas_de_atenci_n">Política de atención</string>
+    <string name="delivery_disponible_solo_en_cura_mori_n_tiempo_estimado_de_entrega_30_45_minutos_n_m_todos_de_pago_yape_plin_y_efectivo">
+        *Delivery disponible.
+        *Una vez el pedido se encuentre en preparando, ya no se puede cancelar el pedido.
+        *Tiempo estimado de entrega: 30 - 45 minutos.
+        *Métodos de pago: Yape, Plin y efectivo.
+    </string>
+
+    //MENU
+    <string name="menu">Menu</string>
+    <string name="carrito">Carrito</string>
+    <string name="mis_pedidos">Mis pedidos</string>
+    <string name="info">Info</string>
+
+
+</resources>

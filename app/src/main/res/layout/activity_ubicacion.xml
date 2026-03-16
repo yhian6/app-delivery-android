@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarUbicacion"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/transparent"
+        app:contentInsetStartWithNavigation="0dp"
+        app:title="" />
+
+    <!-- Texto de instrucciones -->
+    <TextView
+        android:id="@+id/txtInstrucciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activa tu GPS y comparte tu ubicación exacta para una entrega rápida y segura."
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:gravity="center" />
+
+    <!-- Imagen del mapa -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_marginTop="15dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layerType="hardware"
+        app:lottie_fileName="gps.json"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="false"/>
+
+    <!-- Botón compartir ubicación -->
+    <Button
+        android:id="@+id/btnCompartirUbicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compartir mi ubicación"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <!-- Mensaje final -->
+    <TextView
+        android:id="@+id/txtMensajeFinal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gracias por tu pago. En unos minutos confirmaremos que se realizó correctamente. Mantente atento."
+        android:textSize="16sp"
+        android:textColor="#4CAF50"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "704326536111",
+    "project_id": "miprimeraapp-c2b6a",
+    "storage_bucket": "miprimeraapp-c2b6a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704326536111:android:98b3864c9bed028fbdbd5a",
+        "android_client_info": {
+          "package_name": "com.yhian.miprimeraapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB69T1P5nb0wxqJy5klyYGaAg3umxeUqGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
